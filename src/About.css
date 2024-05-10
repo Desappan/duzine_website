@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.about_con{
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+
+}
+.about_word{
+    /* background-color: brown; */
+    width: 60%;
+    /* gap: 60px; */
+    text-align: left;
+    padding: 0px 30px;
+}
+
+.about_word h6{
+    padding: 10px 0px;
+}
+
+.about_word  button{
+    margin-top: 50px;
+    color: white;
+    padding: 5px 15px;
+    background: linear-gradient(90.35deg, #0845F9 0%, #BE40F5 100%);
+    border: none;
+    border-radius: 5px;
+
+}
+.about_img_con{
+    width: 30%;
+    height: 50%;
+    /* background-color: rgb(243, 239, 8); */
+}
+.about_img_con img{
+    width: 50%;
+}
